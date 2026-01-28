@@ -267,58 +267,6 @@ Step 2:
 
 ---
 
-## 🚀 Quick Start
-
-### Running GUI Applications
-```bash
-# Network Simulator (5 major operations)
-python Task5a.py
-
-# Multithreaded Sorting (watch thread logs)
-python Task5b.py
-```
-
-### Running Console Applications
-```bash
-# Weiszfeld (test 2 cases)
-python Task1a.py
-
-# TSP (compare cooling schedules)
-python Task1b.py
-
-# Tile Shatter (validate DP solution)
-python Task2.py
-
-# Min Centers (tree construction demo)
-python Task3.py
-
-# Energy Grid (hourly allocation report)
-python Task4.py
-
-# Robot Delivery (all 3 algorithms comparison)
-python Task6.py
-```
-
----
-
-## 📊 Complexity At-A-Glance
-
-```
-Weiszfeld:      O(I×N)        Space: O(N)       ✓ Optimal
-TSP:            O(M×N²)       Space: O(N)       ~ Approximate
-Tile Shatter:   O(N³)         Space: O(N²)      ✓ Optimal
-Min Centers:    O(N)          Space: O(H)       ✓ Optimal
-Energy Grid:    O(H×S×D)      Space: O(H×D)     ✓ Feasible
-Network Sim:    O(E log E)    Space: O(V)       ✓ Optimal
-MergeSort:      O(N log N)    Space: O(N)       ✓ Optimal
-Pathfinding:    varies        varies            varies
-└─ DFS:         O(V+E)        O(H)              ✗ Not optimal
-└─ BFS:         O(V+E)        O(V)              ✓ Optimal (unweighted)
-└─ A*:          O(b^d)        O(b^d)            ✓ Optimal (with heuristic)
-```
-
----
-
 ## 🎯 Test Results Summary
 
 | Problem | Status | Notes |
